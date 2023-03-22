@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/2a/b1/c3/2ab1c37cfdff720c6de2ddb07328f145.jpg);
+}
+h1 {
+    font-family: Delicious Handrawn;
+    color: red;
+    background-image: url("https://placekitten.com/900/400");
+    width: 900px;
+    height: 400px;
+    font-size: 10em;
+    display:flex;
+}
+div.cat-pics {
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+p.catpiccaption {
+    background-color: darkgreen;
+    color: pink;
+    padding: 5px;
+}
+.topelements {
+    display: flex;
+}
+nav {
+    display:flex;
+    width: 200px;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    background-color: green;
+}
+div.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+p.review {
+    background-color: antiquewhite;
+}
