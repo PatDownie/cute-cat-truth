@@ -1,6 +1,10 @@
 body {
     background-image: url(https://i.pinimg.com/originals/2a/b1/c3/2ab1c37cfdff720c6de2ddb07328f145.jpg);
 }
+header{
+    text-align: center;
+    width: 100%;
+}
 h1 {
     display: inline-block;
     vertical-align: middle;
