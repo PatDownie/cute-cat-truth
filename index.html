@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn">
-    
+    <script src="demoscript.js"></script>
 </head>
 <body>
     <div>
@@ -28,7 +28,10 @@
         <h2>
             <div>
                 <p id="personal-greeting">
-
+                    <script>
+                        yourName();
+                        favCatQuestion();
+                    </script>
                 </p>
             </div>
         </h2>
@@ -47,25 +50,21 @@
             <p class="catpiccaption">Another cute looking cat.<br> This monster gained the nickname "The butcher"<br> due to his unspeakable crimes</p>
         </div>
     </div>
+    <br>
     <div class="container">
-        <h3>
-            REVIEWS
-        </h3>
-        <div class="reviews">
-            <div>
-                <p class="review">"☆☆☆☆☆ - Thank you for saving me from such evil cats!"</p>
-            </div>
-            <div>
-                <p class="review">"☆ - This website sucks, cats are cute!"</p>
-            </div>
-            <div>
-                <p class="review">"☆☆☆☆☆ - Do not listen to the last reviewer he is a cat sympathiser"</p>
-            </div>
+        <div class="angry-cat-section" id="angry-cat-rating"></div>
+        <br>
+        <div class="button-area">
+            <button onclick="rating()">Rate us!</button>
         </div>
     </div>
+    <br>
+    <div class="button-area">
+        <button id="minecraft-button" onclick="minecraft()">I like Minecraft</button>
+    </div>
+    <br>
     <footer>
         © The Cat Truthers
     </footer>
-    <script src="demoscript.js"></script>
 </body>
 </html>
