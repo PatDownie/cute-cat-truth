@@ -16,4 +16,4 @@ let y = "5";
 let number = x + y;
 
 console.log(typeof number);
-console.log("number is a variable of type: " + typeof number)
+console.log("number is a variable of type: " + typeof number);
