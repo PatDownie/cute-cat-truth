@@ -39,6 +39,7 @@ let buttonCounter = 0;
 function minecraft() {
   if(buttonState == 0 && buttonCounter <= 4){
     document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/2a/b1/c3/2ab1c37cfdff720c6de2ddb07328f145.jpg')";
+    // document.getElementById("minecraft-header").style.backgroundColor = "green";
     document.getElementById("minecraft-button").innerHTML = "I don't like Minecraft actually";
     buttonState =1;
     buttonCounter += 1;
